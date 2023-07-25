@@ -26,8 +26,8 @@ public class HomeController : Controller
         personas.Nombre = "Adonis A. Severino";
         personas.Suscriptores = "600,000 suscriptores";
         personas.Avatar = "/imagenes/batman-begins-2.jpg";
-        personas.Peso = 180;
-        personas.Altura = 71;
+        personas.Peso = 150;
+        personas.Altura = 5.5;
         personas.Imc = calcularImc(personas.Peso, personas.Altura);
         return View("Index2", personas);
 
@@ -49,7 +49,7 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-    public float calcularImc(float peso, float altura)
+    public double calcularImc(double peso, double altura)
     {
         return peso / (altura * altura) * 703;
     }
