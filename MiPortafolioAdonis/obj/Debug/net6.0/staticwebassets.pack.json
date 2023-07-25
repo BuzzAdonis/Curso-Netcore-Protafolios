@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets/MiPortafolioAdonis.bundle.scp.css"
     },
     {
+      "Id": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/css/custom.css",
+      "PackagePath": "staticwebassets/css/custom.css"
+    },
+    {
       "Id": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/imagenes/batman-begins-2.jpg",
+      "PackagePath": "staticwebassets/imagenes/batman-begins-2.jpg"
     },
     {
       "Id": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/js/site.js",

@@ -15,7 +15,19 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View("Index1");
+        /*   ViewBag.Nombre = "Adonis A. Severino";
+           ViewBag.Lenguaje     = ".Net y Oracle";
+           ViewBag.Edad         = 25;
+           ViewBag.Suscriptores = "600,000 suscriptores";
+           ViewBag.Imagen       = "/imagenes/batman-begins-2.jpg";*/
+        Persona personas = new();
+        personas.Edad = 25;
+        personas.Lenguaje = ".Net y Oracle";
+        personas.Nombre = "Adonis A. Severino";
+        personas.Suscriptores = "600,000 suscriptores";
+        personas.Avatar = "/imagenes/batman-begins-2.jpg"; 
+        return View("Index2", personas);
+
     }
 
     public IActionResult Indice()

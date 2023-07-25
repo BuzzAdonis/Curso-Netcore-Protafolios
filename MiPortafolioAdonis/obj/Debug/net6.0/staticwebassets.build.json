@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Tlj+dM9HbId5ys8lv69ulFVvKCoM5JNus40PzWLx900=",
+  "Hash": "ghWX8uUS+VkrSsGeeUrvzbHPXIbmtFj9ipQeaHtCWaQ=",
   "Source": "MiPortafolioAdonis",
   "BasePath": "_content/MiPortafolioAdonis",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/obj/Debug/net6.0/scopedcss/projectbundle/MiPortafolioAdonis.bundle.scp.css"
     },
     {
+      "Identity": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/css/custom.css",
+      "SourceId": "MiPortafolioAdonis",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/",
+      "BasePath": "_content/MiPortafolioAdonis",
+      "RelativePath": "css/custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/custom.css"
+    },
+    {
       "Identity": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/css/site.css",
       "SourceId": "MiPortafolioAdonis",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/imagenes/batman-begins-2.jpg",
+      "SourceId": "MiPortafolioAdonis",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/",
+      "BasePath": "_content/MiPortafolioAdonis",
+      "RelativePath": "imagenes/batman-begins-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/imagenes/batman-begins-2.jpg"
     },
     {
       "Identity": "/Users/adonis/Projects/MiPortafolioAdonis/MiPortafolioAdonis/wwwroot/js/site.js",
