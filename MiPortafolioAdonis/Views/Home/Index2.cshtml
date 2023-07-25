@@ -11,15 +11,29 @@
 <div class="text-center">
     <h1>Mi nombre es @Model.Nombre </h1>
     <h2>Programador de @mayuscula(@Model.Nombre). (@Model.Edad)</h2>
-    @if (Model.Edad >= 18) {
-        <h4 class="display-4">Bienvenido a CocoBongo Sr. Okinawa.<br/><button>Entrar</button></h4>
+    @if (Model.Edad >= 18)
+    {
+        <h4 class="display-4">Bienvenido a CocoBongo Sr. Okinawa.<br /><button>Entrar</button></h4>
         <p>No, no, no  usted esta <a href="https://www.cocobongo.com/?gclid=CjwKCAjwwb6lBhBJEiwAbuVUSq6YnZGPugemIF85vf89n8ddBuLGB21QERpbqrzjF2Ggbb13SUCh6xoCGVIQAvD_BwE">aquí</a> bebiendo jugo mo con Buchana 19.</p>
-        }
-    else{
-            <h4>Te Falta Calle</h4>
-        }
+    }
+    else
+    {
+        <h4>Te Falta Calle</h4>
+    }
     <h3>Ya somos @Model.Suscriptores</h3>
-    <img src="@Model.Avatar" id="foto"/>
+    <img src="@Model.Avatar" id="foto" />
     <h2>Peso: @Model.Peso / ( @Model.Altura )^2  * 703 = @Model.Imc</h2>
+    <hr />
+    @if (Model.puntos == 0.0)
+        {
+        <h2>Estas mal no tiene bono  <b>Inaceptable</b></h2>
+        }
+        else if (Model.puntos == 0.4)
+        {
+        <h2>Tu bono es de @Model.bono esfuerzate <b>Aceptable</b></h2>
+        }
+        else {
+            <h2>Tu bono es de @Model.bono sigue asi <b>Meritorio</b></h2>
+        }
 </div>
 

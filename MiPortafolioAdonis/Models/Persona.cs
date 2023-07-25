@@ -9,6 +9,10 @@ public class Persona
     public string Avatar { get; set; }
     public double Peso { get; set; }
     public double Altura { get; set; }
-    public double Imc { set; get; } 
+    public double Imc { set; get; }
+    public double puntos { get; set; } = 0.0;
+    public double bono { get; set; }
+
+
 }
 

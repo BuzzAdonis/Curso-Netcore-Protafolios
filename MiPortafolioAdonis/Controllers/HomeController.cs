@@ -29,6 +29,9 @@ public class HomeController : Controller
         personas.Peso = 150;
         personas.Altura = 5.5;
         personas.Imc = calcularImc(personas.Peso, personas.Altura);
+        //Inaceptable 0.0, Aceptable 0.4, Meritorio 0.6
+        personas.puntos = 0.6;
+        personas.bono = bonoDesem(personas.puntos);
         return View("Index2", personas);
 
     }
@@ -53,5 +56,9 @@ public class HomeController : Controller
     {
         return peso / (altura * altura) * 703;
     }
+    public double bonoDesem(double puntos) {
+
+        return puntos * 2400;
+            }
 }
 
