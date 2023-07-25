@@ -7,5 +7,8 @@ public class Persona
     public string Suscriptores { get; set; }
     public string Lenguaje { get; set; }
     public string Avatar { get; set; }
+    public float Peso { get; set; }
+    public float Altura { get; set; }
+    public float Imc { set; get; } 
 }
 
